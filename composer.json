@@ -1,0 +1,29 @@
+{
+    "name": "hp7/por15",
+    "description": "POR-15 Base Builds Theme",
+    "type": "silverstripe-theme",
+    "keywords": ["silverstripe", "theme"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Helder Prata",
+            "homepage": "http://porproducts.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "*",
+        "silverstripe/framework": ">=4"
+    },
+	"extra": {
+		"branch-alias": {
+			"dev-master": "4.x-dev"
+		},
+        "expose": [
+            "css",
+            "images",
+            "javascript",
+            "fonts",
+            "webfonts"
+        ]
+	}
+}

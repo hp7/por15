@@ -1,0 +1,320 @@
+@charset "UTF-8";
+/* @import url('https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700,700i'); */
+
+html {
+width:100%;
+height:100%;
+background:#101010;
+}
+
+body {
+	/* font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif; */
+	font: 100%/1.4 'Istok Web', Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	background: #231f20;
+	color: #cbcbcb;
+	padding:0;
+width:100%;
+height:100%;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#101010+0,101010+100&0.95+0,0+7,0+93,0.95+100 */
+background: -moz-linear-gradient(top, rgba(16,16,16,0.95) 0%, rgba(16,16,16,0) 7%, rgba(16,16,16,0) 93%, rgba(16,16,16,0.95) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(16,16,16,0.95) 0%,rgba(16,16,16,0) 7%,rgba(16,16,16,0) 93%,rgba(16,16,16,0.95) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(16,16,16,0.95) 0%,rgba(16,16,16,0) 7%,rgba(16,16,16,0) 93%,rgba(16,16,16,0.95) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2101010', endColorstr='#f2101010',GradientType=0 ); /* IE6-9 */
+}
+
+body i, body em {
+	font: 100%/1.4 'Istok Web', Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 400i;
+}
+body b, body strong {
+	font: 100%/1.4 'Istok Web', Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
+
+
+/* FORCE BG CPOLOR BLEND AND SHARE LINK SPACE */
+.main-bg-container {
+width:100%;
+height:100%;
+padding:0;
+background: #231f20;
+-moz-box-shadow: inset 0 0 40px #000000;
+-webkit-box-shadow: inset 0 0 40px #000000;
+box-shadow: inset 0 0 40px #000000;
+}
+
+
+
+footer {
+padding-bottom: 5rem;
+}
+
+
+
+.flagContainer {
+position: relative;
+float: left;
+text-align: left;
+padding: 0;
+margin: 0;
+margin-top: -3rem;
+/* margin-top: -1.5rem; */
+
+}
+.flagContainer a.gflag {
+margin-right: 5px;
+}
+.flagContainer #google_translate_element {
+position: absolute;
+top: 0;
+right:auto;
+left: 0;
+background: #000;
+}
+
+body .flagContainer .goog-te-gadget {
+padding-right: 20px !important;
+border: 1px solid #666 !important;
+background: #000 !important;
+}
+
+body .flagContainer .goog-te-gadget-simple {
+background-color: #000 !important;
+color:#aaa !important;
+border: 1px solid #666;
+border: 0;
+}
+body .flagContainer .goog-te-gadget-simple a {
+border: 0 !important;
+background-color: #000 !important;
+color:#aaa !important;
+}
+
+body .goog-te-menu-frame .goog-te-menu2 {
+background-color: #000 !important;
+}
+body .goog-te-menu-frame .goog-te-menu2 a, body .goog-te-menu-frame .goog-te-menu2 a:visited {
+color:#00a3ff !important;
+}
+body .goog-te-menu-frame .goog-te-menu2 a:hover, body .goog-te-menu-frame .goog-te-menu2 a:active  {
+color:#33ccff !important;
+}
+
+
+
+
+
+
+a {
+text-decoration:none;
+color: #00a3ff;
+transition: all 0.4s ease;
+}
+a:hover, a:active {
+color: #33ccff;
+}
+/*
+a:visited {
+color:#007dc3;
+}
+*/
+a img {
+	border: none;
+}
+
+
+/* ===========
+HEADER
+=============== */
+header {
+position:relative;
+z-index:0;
+}
+header .brand {
+display:block;
+background-image: url("themes/por15/images/POR-15-logo-sm.png");
+background-position: 0 -5px;
+background-size: 100% auto;
+background-repeat: no-repeat;
+}
+header .brand img {
+width:100%;
+max-width: 95%;
+}
+
+
+/* ==================
+Navigations
+========================
+ */
+.top-bar, .top-bar ul {
+background-color: transparent;
+font-size: 0.8rem;
+padding:0;
+margin:0;
+}
+.top-bar {
+}
+.title-bar {
+background: #48A1F8;
+color:rgba(255,255,255,0.7);
+font-size: 1rem;
+position: absolute;
+right: 0;
+top: 0;
+z-index:0;
+}
+.main-nav .title-bar .nav-icon i {
+font-size: 2.5rem;
+color:rgba(255,255,255,0.7);
+padding:0 0.75rem;
+}
+
+.main-nav {
+background-color: transparent;
+font-size: 0.8rem;
+}
+.top-level-link {
+background-color: rgba(0, 0, 0, 0.5);
+font-size: 0.8rem;
+}
+.main-nav .primary {
+position: absolute;
+top: 0;
+width: 100%;
+left: 0;
+right: 0;
+}
+.main-nav .primary nav {
+position: relative;
+top: 55px;
+width: 100%;
+left: 0;
+right: 0;
+}
+.main-nav .blog-link {
+background: #00a3ff;
+color: rgba(255, 255, 255, 0.7);
+}
+.main-nav .blog-link::after {
+display:none;
+}
+.dropdown.menu.medium-horizontal>li.is-dropdown-submenu-parent>a::after {
+display:none;
+}
+
+
+
+/* FIX FLASH APPEARENCE OF CONTENT BRFORE CSS FINISHES */
+.no-js .top-bar {
+  display: none;
+}
+
+@media screen and (min-width: 40em) {
+  .no-js .top-bar {
+    display: block;
+  }
+
+  .no-js .title-bar {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+/* -----
+Shadow and highlight of product image */
+.product-image {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#999999+0,ffffff+70&0.2+0,0+70 */
+background: -moz-radial-gradient(center, ellipse cover, rgba(153, 153, 153, 0.2) 0%, rgba(255, 255, 255, 0) 70%);
+/* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(153, 153, 153, 0.2) 0%, rgba(255, 255, 255, 0) 70%);
+/* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(153, 153, 153, 0.2) 0%, rgba(255, 255, 255, 0) 70%);
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#33999999', endColorstr='#00ffffff', GradientType=1 );
+/* IE6-9 fallback on horizontal gradient */
+}
+
+.product-image img {
+-webkit-filter: drop-shadow(5px 5px 5px #000);
+filter: drop-shadow(5px 5px 5px #000);
+}
+/* -----
+END Shadow and highlight of product image */
+
+
+
+
+/* NAV MENU */
+
+@media screen and (max-width: 39.9375em) {
+  .no-js .top-bar {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 40em) {
+  .no-js .title-bar {
+    display: none;
+  }
+}
+
+[data-sticky] {
+/*  width: 100%;*/
+}
+
+.sticky-container {
+  z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 40em) {
+
+/* FORCE BG CPOLOR BLEND AND SHARE LINK SPACE */
+.main-bg-container {
+padding:0 3.5rem;
+}
+
+/* ===========
+HEADER
+=============== */
+header {
+
+}
+header .brand {
+background-position: 0 -12px;
+}
+header .brand img {
+}
+.main-nav .primary {
+position: absolute;
+top: 0;
+width: 100%;
+left: auto;
+right: 0;
+}
+.main-nav .primary nav {
+position: absolute;
+top: 0;
+left: auto;
+right: 0;
+width: auto;
+}
+
+}
+
+
